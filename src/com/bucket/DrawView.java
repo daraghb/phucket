@@ -20,8 +20,8 @@ public class DrawView extends View {
 
         canvas.drawRect(30, 30, 80, 80, paint);
         paint.setStrokeWidth(0);
-        //paint.setColor(Color.CYAN);
-        //canvas.drawRect(33, 60, 77, 77, paint );
+        paint.setColor(Color.CYAN);
+        canvas.drawRect(33, 60, 77, 77, paint );
         //paint.setColor(Color.YELLOW);
         //canvas.drawRect(33, 33, 77, 60, paint );
 
