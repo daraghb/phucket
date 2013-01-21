@@ -15,7 +15,7 @@ public class DrawView extends View {
 
     @Override
     public void onDraw(Canvas canvas) {
-        paint.setColor(Color.BLACK);
+        paint.setColor(Color.RED);
         paint.setStrokeWidth(3);
 
         canvas.drawRect(30, 30, 80, 80, paint);
